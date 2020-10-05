@@ -1,0 +1,463 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/font-awesome/css/font-awesome.min.css">
+</head>
+<body id="fullscreen">
+    
+<div class="d-flex " id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">Institute Name</div>
+        <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action bg-light">
+                <img src="images/image1.jpg" class="profile-image" alt="profile image">
+                <h4 class="profile-name"> name</h4>    
+            </a>
+            
+            
+             <div class="scrollbar" id="style-1">
+                 <div class="force-overflow">
+                   <a class="numbers" href=""><span class="badge badge-pill badge-info">1</span></a>
+                   <a class="numbers" href=""><span class="badge badge-pill badge-info">2</span></a>
+                   <a class="numbers" href=""><span class="badge badge-pill badge-info">3</span></a>
+                    <a class="numbers" href=""><span class="badge badge-pill badge-info">4</span></a>
+                     <a class="numbers" href=""><span class="badge badge-pill badge-info">5</span></a>
+                      <div class="mt-2">
+                        
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">6</span></a>
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">7</span></a>
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">8</span></a>
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">9</span></a>
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">10</span></a>
+                    </div>
+                  <div class="mt-2">
+                                    
+                      <a class="numbers" href=""><span class="badge badge-pill badge-info">11</span></a>
+                      <a class="numbers" href=""><span class="badge badge-pill badge-info">12</span></a>
+                     <a class="numbers" href=""><span class="badge badge-pill badge-info">13</span></a>
+                     <a class="numbers" href=""><span class="badge badge-pill badge-info">14</span></a>
+                     
+                  </div>
+                   <div class="mt-2">
+                       <a class="numbers" href=""><span class="badge badge-pill badge-info">15</span></a>
+                       <a class="numbers" href=""><span class="badge badge-pill badge-info">16</span></a>
+                          <a class="numbers" href=""><span class="badge badge-pill badge-info">17</span></a>
+                       <a class="numbers" href=""><span class="badge badge-pill badge-info">18</span></a>
+                   </div>
+                   <div class="mt-2">
+                     
+                       <a class="numbers" href=""><span class="badge badge-pill badge-info">19</span></a>
+                       <a class="numbers" href=""><span class="badge badge-pill badge-info">20</span></a>
+                       <a class="numbers" href=""><span class="badge badge-pill badge-info">21</span></a>
+                       <a class="numbers" href=""><span class="badge badge-pill badge-info">22</span></a>
+
+                   </div>
+                    <div class="mt-2">
+                    
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">23</span></a>
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">24</span></a>
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">25</span></a>
+                        <a class="numbers" href=""><span class="badge badge-pill badge-info">26</span></a>
+                    
+                    </div>
+                        <div class="mt-2">
+                        
+                            <a class="numbers" href=""><span class="badge badge-pill badge-info">27</span></a>
+                            <a class="numbers" href=""><span class="badge badge-pill badge-info">28</span></a>
+                            <a class="numbers" href=""><span class="badge badge-pill badge-info">29</span></a>
+                            <a class="numbers" href=""><span class="badge badge-pill badge-info">30</span></a>
+                        
+                        </div>
+
+                 </div>
+             </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+               <div class="col-6 "> 
+                <div class="answered"></div><span class="marker">Answered</span>
+               </div>
+               <div class="col-6">
+                <div class="answered bg-danger"></div><span class="marker">Not Answered</span>
+               </div>   
+            </div>
+            <div class="row mt-2">
+                <div class="col-6 ">
+                    <div class="answered bg-primary"></div><span class="marker">Marked</span>
+                </div>
+                <div class="col-6">
+                   <div class="visited"><div class="answered bg-light"></div></div> <span class="marker">Not Visited</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper ">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <button class="btn btn-outline-primary" id="menu-toggle">Questions</button>
+        <button class="btn btn-outline-info ml-lg-3" onclick="openFullscreen()" >Full Screen</button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Profile
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Questions</a>
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Login</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid" >
+            <div class="d-flex">
+                
+                <div class="col-8 border-right ">
+                    <h3 class="mt-4">Instructions</h3>
+                    <span><button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModalCenter">
+                        Read Instructions
+                    </button></span>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Instructions</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    timing-60 mins
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>Directions
+                        The following questions consist of a single sentence with one blank only. You are given six words denominated by
+                        A, B,
+                        C, D, E and F as answer choices and from the six choices you have to pick two correct answers, either of which
+                        will make
+                        the sentence meaningfully complete.</p>
+
+                </div>
+               <div class="col-4 my-auto">
+                    <button class="btn btn-outline-danger"  
+                    id="start" onclick="start() ">Start</button>
+                    <p class="ml-lg-5 ml-2">
+                        <div><span id="time">60:00</span> minutes left</div>
+                        </p>
+               </div>
+                  
+                
+            </div>          
+            <hr>
+            
+            
+                <div id="hide" class="hide">
+                
+            
+                    <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-English-tab" data-toggle="pill" href="#english" role="tab"
+                                aria-controls="pills-home" aria-selected="true">English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-Math-tab" data-toggle="pill" href="#math" role="tab"
+                                aria-controls="pills-profile" aria-selected="false">Math</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-hindi-tab" data-toggle="pill" href="#hindi" role="tab"
+                                aria-controls="pills-contact" aria-selected="false">Hindi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-history-tab" data-toggle="pill" href="#history" role="tab"
+                                aria-controls="pills-contact" aria-selected="false">History</a>
+                        </li>
+                    </ul>
+
+                    <!--questions data-->
+                    <div class="tab-content navquestions" id="pills-tabContent">
+                        <!--english or sub1-->
+                        <div class="tab-pane fade show active" id="english" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p> <span>Q1 :-</span> A shrinking vote share for the centrist parties and a notable
+                                            showing by the
+                                            far right in Sunday’s
+                                            elections in Sweden
+                                            ______________________ the growing anti-immigrant mood in the Nordic nations and
+                                            across Europe. 
+                                            </p>
+                                            <ol type="A">
+                                                <li>resonate</li>
+                                                <li>
+                                                    <img src="images/image1.jpg" alt="" class="question_image">
+                                                </li>
+                                                <li>grow</li>
+                                                <li>echo</li>
+                                                <li>supercede</li>
+                                            </ol>
+
+
+                                    </div>
+                                    <!--English Answers-->
+                                    <div class="col-6">
+                                        <h4>ANSWER:-</h4>
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" class="custom-control-input" id=""
+                                                name="">
+                                            <label class="custom-control-label " for="">(A) <span>
+                                                    resonate</span> </label>
+                                        </div>
+                                        <div class="custom-control custom-radio mt-3">
+                                            <input type="radio" class="custom-control-input" id=""
+                                                name="b">
+                                            <label class="custom-control-label" for="">(B) <span><img
+                                                        src="images/image1.jpg" alt="" class="question_image"> </span></label>
+                                        </div>
+                                        <div class="custom-control custom-radio mt-3">
+                                            <input type="radio" class="custom-control-input" id=""
+                                                name="">
+                                            <label class="custom-control-label" for="">(C) <span>grow</span>
+                                            </label>
+                                        </div>
+                                        <div class="custom-control custom-radio mt-3">
+                                            <input type="radio" class="custom-control-input" id=""
+                                                name="">
+                                            <label class="custom-control-label" for="">(D)
+                                                <span>echo</span></label>
+                                        </div>
+                                        <div class="custom-control custom-radio mt-3">
+                                            <input type="radio" class="custom-control-input" id=""
+                                                name="e">
+                                            <label class="custom-control-label" for="e">(E)supercede</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        <div class="tab-pane fade" id="math" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <!--math questions--> 
+                            <div class="row">
+                                <div class="col-6">
+                                    <p><span> Q1 :-</span>  The zeroes of x2–2x –8 are:
+                                    </p>
+                                    <ol type="A">
+                                        <li>(2,-4)</li>
+                                        <li>
+                                            (4,-2)
+                                        </li>
+                                        <li>(-2,-2)</li>
+                                        <li>(-4,-4)</li>
+                                    </ol>
+                                </div>
+                                <!--math Answers-->
+                                <div class="col-6">
+                                    <h4>ANSWER:-</h4>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="amath">
+                                        <label class="custom-control-label " for="amath">(A) <span>
+                                                </span> </label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="b">
+                                        <label class="custom-control-label" for="b">(B) <span>
+                                            </span></label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="c">
+                                        <label class="custom-control-label" for="c">(C)
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="d">
+                                        <label class="custom-control-label" for="d">(D)
+                                            <span></span></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="hindi" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            
+                            <!--hindi questions-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <p><span> Q1 :-</span> इढहो मेक्सिको सिटी मिशिगन मिनेसोटा इढहो मेक्सिको सिटी मिशिगन
+                                        मिनेसोटा इढहो मेक्सिको सिटी मिशिगन मिनेसोटा इढहो मेक्सिको सिटी मिशिगन मिनेसोटा इढहो
+                                        मेक्सिको सिटी मिशिगन मिनेसोटा
+                                    </p>
+                                    <ol type="A">
+                                        <li>(2,-4)</li>
+                                        <li>
+                                            (4,-2)
+                                        </li>
+                                        <li>(-2,-2)</li>
+                                        <li>(-4,-4)</li>
+                                    </ol>
+                                </div>
+                                <!--hindi Answers-->
+                                <div class="col-6">
+                                    <h4>ANSWER:-</h4>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="a">
+                                        <label class="custom-control-label " for="a">(A) <span>
+                                            </span> </label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="b">
+                                        <label class="custom-control-label" for="b">(B) <span>
+                                            </span></label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="b">
+                                        <label class="custom-control-label" for="b">(C)
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="d">
+                                        <label class="custom-control-label" for="d">(D)
+                                            <span></span></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            
+                            <!--hindi questions-->
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p><span> Q1 :-</span>history
+                                        
+                                    </p>
+                                    <ol type="A">
+                                        <li>(2,-4)</li>
+                                        <li>
+                                            (4,-2)
+                                        </li>
+                                        <li>(-2,-2)</li>
+                                        <li>(-4,-4)</li>
+                                    </ol>
+                                </div>
+                                <!--math Answers-->
+                                <div class="col-6">
+                                    <h4>ANSWER:-</h4>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="a">
+                                        <label class="custom-control-label " for="a">(A) <span>
+                                            </span> </label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="b">
+                                        <label class="custom-control-label" for="b">(B) <span>
+                                            </span></label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="c">
+                                        <label class="custom-control-label" for="c">(C)
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio mt-3">
+                                        <input type="radio" class="custom-control-input" id=""
+                                            name="d">
+                                        <label class="custom-control-label" for="d">(D)
+                                            <span></span></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- /#page-content-wrapper -->
+   
+</div>
+ </div>
+<!-- /#wrapper -->
+
+<footer >
+    <div class="row">
+        <div class="col-7 col-sm-7 ">
+            <div class="btn-group mt-2" role="group" aria-label="Basic example">
+                <button class="btn btn-outline-primary ">
+                    previous question </button>
+                <button class="btn btn-outline-primary ">Next Question</button>
+            </div>       
+        </div>
+        
+        <div class="col-5 col-sm-5 mt-1  d-flex justify-content-center  ">
+            <button id="" class="btn btn-outline-success "> Submit </button>
+        </div>
+        
+    </div>
+    
+</footer>
+</body>
+<script src="js/jquery/dist/jquery.slim.min.js"></script>
+<script src="style/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/popper.js/dist/umd/popper.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+    //menu toggler 
+      $("#menu-toggle").click(function(e) {
+         e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+    //start button tooltip
+ 
+
+  
+</script>
+</html>
